@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/music.css">
+    <title>Лучшие Музыканты</title>
+</head>
+
+<body>
+
+    <div class="page-wrap">
+
+        <header class="header">
+            <div class="logo">ARLAN</div>
+            <div id="music-player">
+                <div id="track-info">
+                    <img id="track-icon" src="" alt="Track Icon">
+                    <div id="track-details">
+                        <span id="track-name">Трек</span>
+                        <div id="time-info">
+                            <span id="current-time">0:00</span> <span id="duration">0:00</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="controls">
+                    <div class="btns">
+                        <button id="prevBtn"><i class="fa-solid fa-backward" style="color: #fff;"></i></button>
+                        <button id="playPauseBtn"><i class="fa-solid fa-circle-play" style="color: #fff;"></i></i></button>
+                        <button id="nextBtn"><i class="fa-solid fa-forward" style="color: #fff;"></i></button>
+                        <button id="musicText"><i class="fa-solid fa-microphone-lines" style="color: #fff;"></i></button>
+                    </div>
+                </div>
+                <input type="range" id="volumeControl" value="100">
+            </div>
+        </header>
+
+        <div id="home-slider">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide-one">
+                        <div class="swiper-image" data-swiper-parallax-y="-20%">
+                            <div class="swiper-image-inner swiper-image-left swiper-image-one">
+                                <h1>Это <span class="emphasis">Скриптонит</span>. <br><span>Из грязи в князи.</span>
+                                </h1>
+                                <p>Zhalelov Adil Oralbekovich</p>
+                            </div>
+                        </div>
+                        <div class="swiper-image" data-swiper-parallax-y="35%">
+                            <div class="swiper-image-inner swiper-image-right swiper-image-two">
+                                <p class="paragraph">
+                                    Скриптонит, воплощаясь в русскоязычном рэпе, является не только музыкальным гением,
+                                    но и вдохновляющим лидером. С его непревзойденным творчеством, включающим в себя
+                                    классический "Дом с нормальными явлениями" и глубокий двойной альбом "Уроборос:
+                                    Улица 36 / Уроборос: Зеркала", он стал иконой русского хип-хопа. Неуловимый в
+                                    жанровых рамках, он проводит нас сквозь зеркало своего искусства, заставляя
+                                    задуматься о бескрайних возможностях музыки.
+                                </p>
+                                <div class="socials">
+                                    <a class="spotify" target="_blank"
+                                        href="https://open.spotify.com/artist/3vvLuXEEf7sl3izJcw0GIn?si=HQBvIF54TTu-U1VAAaJctw"><i
+                                            class="fa-brands fa-spotify"></i></a>
+                                    <a class="instagram" target="_blank" href="https://www.instagram.com/real_scrip/"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                    <a class="youtube" target="_blank" href="https://www.youtube.com/@skryp"><i
+                                            class="fa-brands fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-two">
+                        <div class="swiper-image" data-swiper-parallax-y="-20%">
+                            <div class="swiper-image-inner swiper-image-left swiper-image-three">
+                                <h1>Это <span class="emphasis">Imagine Dragons</span>. <br><span>Всё, что потребуется.</span></h1>
+                                <p>Daniel Coulter Reynolds</p>
+                            </div>
+                        </div>
+                        <div class="swiper-image" data-swiper-parallax-y="35%">
+                            <div class="swiper-image-inner swiper-image-right swiper-image-four">
+                                <p class="paragraph">
+                                    Imagine Dragons, ворвавшись на мировую сцену, стали не просто рок-группой, 
+                                    а настоящим культурным феноменом, который продолжает вдохновлять миллионы слушателей. 
+                                    Их фирменное звучание - мощные барабаны, 
+                                    эмоциональные вокальные взрывы Дэна Рейнольдса и сочетание рока, 
+                                    попа и электроники - превратило такие альбомы,
+                                    как Night Visions и Evolve, в современные классики.
+                                </p>
+                                <div class="socials">
+                                    <a class="spotify" target="_blank"
+                                        href="https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q"><i
+                                            class="fa-brands fa-spotify"></i></a>
+                                    <a class="instagram" target="_blank"
+                                        href="https://www.instagram.com/imaginedragons/"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                    <a class="youtube" target="_blank" href="https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA"><i
+                                            class="fa-brands fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-three">
+                        <div class="swiper-image" data-swiper-parallax-y="-20%">
+                            <div class="swiper-image-inner swiper-image-left swiper-image-five">
+                                <h1>Это <span class="emphasis">The Hatters</span>. <br><span>Музыка - это свобода.</span></h1>
+                                <p>Yuri Muzychenko</p>
+                            </div>
+                        </div>
+                        <div class="swiper-image" data-swiper-parallax-y="35%">
+                            <div class="swiper-image-inner swiper-image-right swiper-image-six">
+                                <p class="paragraph">
+                                    The Hatters это не просто музыкальная группа, 
+                                    а настоящий карнавальный вихрь, 
+                                    который ворвался в русскую сцену и перевернул привычные представления о жанрах. 
+                                    Их творчество - взрывной коктейль из фолка, 
+                                    цыганских мотивов, панка, рока и бескрайней артистической свободы. 
+                                    С первыми же аккордами The Hatters превращают слушателя в участника безумного бала, 
+                                    где каждая нота - вызов обыденности, а каждый припев - маленькая революция.
+                                </p>
+                                <div class="socials">
+                                    <a class="spotify" target="_blank"
+                                        href="https://open.spotify.com/artist/7JuLr3YC53QjWBcw2el44G"><i
+                                            class="fa-brands fa-spotify"></i></a>
+                                    <a class="instagram" target="_blank" href="https://www.instagram.com/thehttrs/?hl=ru"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                    <a class="youtube" target="_blank" href="https://www.youtube.com/channel/UCkaZnkZMmIg3pNmi1zRXpeQ"><i
+                                            class="fa-brands fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-four">
+                        <div class="swiper-image" data-swiper-parallax-y="-20%">
+                            <div class="swiper-image-inner swiper-image-left swiper-image-seven">
+                                <h1>Это <span class="emphasis">Eminem</span>. <br><span>Как взлеты, так и падения - это
+                                        часть пути к успеху.</span></h1>
+                                <p>Marshall Bruce Mathers III</p>
+                            </div>
+                        </div>
+                        <div class="swiper-image" data-swiper-parallax-y="35%">
+                            <div class="swiper-image-inner swiper-image-right swiper-image-eight">
+                                <p class="paragraph">
+                                    Эминем, сценический псевдоним Маршалла Брюса Мазерса III, легендарная икона
+                                    хип-хопа из Детройта. Начавший как баттл-рэпер, он с течением времени стал
+                                    несомненным лидером жанра. Его карьера, полная подъемов и падений, привела к
+                                    созданию непревзойденных хитов, обрела влияние в культуре и завоевала множество
+                                    наград, включая "Оскар". Чрезвычайное мастерство слова, рекорды продаж и вечная
+                                    эволюция делают Эминема одним из величайших артистов в истории хип-хопа.
+                                </p>
+                                <div class="socials">
+                                    <a class="spotify" target="_blank"
+                                        href="https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR?si=W1SL-4J2TiWGXzXvUANrlQ"><i
+                                            class="fa-brands fa-spotify"></i></a>
+                                    <a class="instagram" target="_blank" href="https://instagram.com/eminem/"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                    <a class="youtube" target="_blank" href="https://www.youtube.com/@eminem"><i
+                                            class="fa-brands fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-five">
+                        <div class="swiper-image" data-swiper-parallax-y="-20%">
+                            <div class="swiper-image-inner swiper-image-left swiper-image-nine">
+                                <h1>Это <span class="emphasis">The Weeknd</span>. <br><span>Талант - это подарок, гений
+                                        - это труд.</span></h1>
+                                <p>Abel Makkonen Tesfaye</p>
+                            </div>
+                        </div>
+                        <div class="swiper-image" data-swiper-parallax-y="35%">
+                            <div class="swiper-image-inner swiper-image-right swiper-image-ten">
+                                <p class="paragraph">
+                                    The Weeknd, музыкальный гений, начавший с микстейпов, взлетел к мировой славе с
+                                    хитами "The Hills" и "Can't Feel My Face". Его эволюция, начиная с "Kiss Land" до
+                                    "After Hours" и "Dawn FM", отражает уникальное творчество и мастерство. Успешные
+                                    сотрудничества и актерские успехи дополняют его влиятельность, делая The Weeknd
+                                    непревзойденным талантом.
+                                </p>
+                                <div class="socials">
+                                    <a class="spotify" target="_blank"
+                                        href="https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ?si=Iu58y0mzQL6-KPoV-laf1w"><i
+                                            class="fa-brands fa-spotify"></i></a>
+                                    <a class="instagram" target="_blank" href="https://instagram.com/theweeknd/"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                    <a class="youtube" target="_blank" href="https://www.youtube.com/@TheWeeknd"><i
+                                            class="fa-brands fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-six">
+                        <div class="swiper-image" data-swiper-parallax-y="-20%">
+                            <div class="swiper-image-inner swiper-image-left swiper-image-eleven">
+                                <h1>Это <span class="emphasis">Travis Scott</span>. <br><span>Успех - это не конечная
+                                        станция, а захватывающее путешествие.</span></h1>
+                                <p>Jacques Bermon Webster II</p>
+                            </div>
+                        </div>
+                        <div class="swiper-image" data-swiper-parallax-y="35%">
+                            <div class="swiper-image-inner swiper-image-right swiper-image-twelve">
+                                <p class="paragraph">
+                                    Трэвис Скотт, известный также как Жак Бермон Вебстер II, взошел на вершину рэп-сцены
+                                    благодаря своему таланту и упорству. Начав с продюсирования в подростковом возрасте,
+                                    он подписал контракт с Epic Records и Grand Hustle. Своими успешными альбомами,
+                                    такими как "Rodeo" и "ASTROWORLD", он стал не только влиятельным исполнителем, но и
+                                    управляет лейблом Cactus Jack Records. Его последний альбом, "UTOPIA", выпущенный в
+                                    2023 году, подчеркнул его творческий трон в индустрии.
+                                </p>
+                                <div class="socials">
+                                    <a class="spotify" target="_blank"
+                                        href="https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=xiWSLJi5QUmo8-lB0iwMYg"><i
+                                            class="fa-brands fa-spotify"></i></a>
+                                    <a class="instagram" target="_blank" href="https://instagram.com/trvisXX/"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                    <a class="youtube" target="_blank" href="https://www.youtube.com/@TravisScottXX"><i
+                                            class="fa-brands fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-seven">
+                        <div class="swiper-image" data-swiper-parallax-y="-20%">
+                            <div class="swiper-image-inner swiper-image-left swiper-image-thirteen">
+                                <h1>Это <span class="emphasis">Kanye West</span>. <br><span>Сотворить что-то из ничего -
+                                        вот искусство настоящего творца.</span></h1>
+                                <p>Kanye Omari West</p>
+                            </div>
+                        </div>
+                        <div class="swiper-image" data-swiper-parallax-y="35%">
+                            <div class="swiper-image-inner swiper-image-right swiper-image-fourteen">
+                                <p class="paragraph">
+                                    Канье Уэст - творец, чей гений простирается далеко за пределы музыки. Виртуоз
+                                    музыкальных идей, он наполняет мир не только звуками, но и удивительными поступками.
+                                    Сверхзвезда, бурлящий океан творчества, он разбивает стереотипы, вдохновляет и
+                                    вызывает восторг. Его альбомы - не просто произведения искусства, а события,
+                                    меняющие ландшафт музыкальной индустрии. Сложный, контраверсиальный, неповторимый -
+                                    Канье Уэст - это не просто исполнитель, это феномен, воплощение гении искусства во
+                                    всей его необузданной красоте и сложности.
+                                </p>
+                                <div class="socials">
+                                    <a class="spotify" target="_blank"
+                                        href="https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x?si=2JCoJQVRTp6-l8atbSEiCQ"><i
+                                            class="fa-brands fa-spotify"></i></a>
+                                    <a class="youtube" target="_blank" href="https://www.youtube.com/@kanyewest"><i
+                                            class="fa-brands fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-eight">
+                        <div class="swiper-image" data-swiper-parallax-y="-20%">
+                            <div class="swiper-image-inner swiper-image-left swiper-image-fifteen">
+                                <h1>Это <span class="emphasis">Макс Корж</span>. <br><span>Простые вещи делают жизнь
+                                        богаче.</span></h1>
+                                <p>Maxim Anatolyevich Korzh</p>
+                            </div>
+                        </div>
+                        <div class="swiper-image" data-swiper-parallax-y="35%">
+                            <div class="swiper-image-inner swiper-image-right swiper-image-sixteen">
+                                <p class="paragraph">
+                                    Максим Корж, белорусский музыкант, смешивает в своем творчестве электронику, рэп и
+                                    пение. С начала карьеры в 2012 году он стремительно продвинулся от первого альбома
+                                    до триумфальных концертов и хитов, таких как "Слово пацана" и "Эндорфин". Его
+                                    творчество неуклонно развивается, заслуживая любовь поклонников, а его альбомы
+                                    "Малый повзрослел" и "Малый повзрослел, ч.2" отражают искусственную зрелость и
+                                    вдохновляют своей искренностью.
+                                </p>
+                                <div class="socials">
+                                    <a class="spotify" target="_blank"
+                                        href="https://open.spotify.com/artist/5meD8C7oGK5yUEY2T7ZZ7W?si=WeCaeoz-Tq6mcA28Lek3fg"><i
+                                            class="fa-brands fa-spotify"></i></a>
+                                    <a class="instagram" target="_blank" href="https://instagram.com/maxkorzhmus/"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                    <a class="youtube" target="_blank" href="https://www.youtube.com/@maxkorzhmus"><i
+                                            class="fa-brands fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-nine">
+                        <div class="swiper-image" data-swiper-parallax-y="-20%">
+                            <div class="swiper-image-inner swiper-image-left swiper-image-seventeen">
+                                <h1>Это <span class="emphasis">MiyaGi</span>. <br><span>Творчество - это язык, на
+                                        котором разговаривает душа с миром.</span></h1>
+                                <p>Azamat Kudzaev</p>
+                            </div>
+                        </div>
+                        <div class="swiper-image" data-swiper-parallax-y="35%">
+                            <div class="swiper-image-inner swiper-image-right swiper-image-eighteen">
+                                <p class="paragraph">
+                                    MiyaGi, или Азамат Кудзаев, родился во Владикавказе в 1990 году. Начал как хирург,
+                                    но страсть к рэпу перевернула его жизнь. С 2007 года создает музыку, сначала под
+                                    именем Shau, затем MiyaGi. Основал лейбл Asata, после перерыва вернулся с хитами
+                                    «Сонная Лощина», «Captain», и «Sorry». В 2019 году выпустил дебютный альбом Buster
+                                    Keaton на лейбле Hajime Records, демонстрируя влиятельность в российской музыкальной
+                                    сцене.
+                                </p>
+                                <div class="socials">
+                                    <a class="spotify" target="_blank"
+                                        href="https://open.spotify.com/artist/1kmpkcYbuaZ8tnFejLzkj2?si=ApLo-MwYTve4DGdEIbYhJQ"><i
+                                            class="fa-brands fa-spotify"></i></a>
+                                    <a class="instagram" target="_blank" href="https://instagram.com/hajimerecords/"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                    <a class="youtube" target="_blank" href="https://www.youtube.com/@HajimeRecords"><i
+                                            class="fa-brands fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-nine">
+                        <div class="swiper-image" data-swiper-parallax-y="-20%">
+                            <div class="swiper-image-inner swiper-image-left swiper-image-nineteen">
+                                <h1>Это <span class="emphasis">pyrokinesis</span>. <br><span>Сила рождается из боли, как звезда из тьмы.</span></h1>
+                                <p>Fedorovich Andrey Igorevich</p>
+                            </div>
+                        </div>
+                        <div class="swiper-image" data-swiper-parallax-y="35%">
+                            <div class="swiper-image-inner swiper-image-right swiper-image-twenty">
+                                <p class="paragraph">
+                                    Андрей Игоревич Федорович, известный как Pyrokinesis, российский рэп-исполнитель, родился в 1995 году в Багерово, Украина. Начав свой творческий путь с поэзии и рассказов, он быстро сделался известным в рэп-баттлах, занимая второе место на "Левом баттле". Переехав в Санкт-Петербург, его альбомы, такие как "Терновый венец эволюции" и "Моя милая пустота", принесли ему признание. Творчество Pyrokinesis отличается концептуальностью, влиянием Ланы Дель Рей и Виктора Пелевина, и является путеводной звездой в мире российской музыки.
+                                </p>
+                                <div class="socials">
+                                    <a class="spotify" target="_blank"
+                                        href="https://open.spotify.com/artist/1kmpkcYbuaZ8tnFejLzkj2?si=ApLo-MwYTve4DGdEIbYhJQ"><i
+                                            class="fa-brands fa-spotify"></i></a>
+                                    <a class="instagram" target="_blank" href="https://instagram.com/hajimerecords/"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                    <a class="youtube" target="_blank" href="https://www.youtube.com/@HajimeRecords"><i
+                                            class="fa-brands fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+    </div>
+    <script type="module" src="./js/music.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/8bf563c95a.js" crossorigin="anonymous"></script>
+    <script type="module" src="./js/slider.js"></script>
+
+</body>
+
+</html>
